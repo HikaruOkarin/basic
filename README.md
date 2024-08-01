@@ -1,0 +1,1 @@
+This repository serves as a resource to save and learn basic knowledge and rules about web programming and Go syntax.
