@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 	"net/url"
-	"os"
+	
 )
 
 func main() {
@@ -68,11 +68,3 @@ func SendForm() {
 	log.Println(result)
 }
 
-func DownloadFile() {
-	file, err := os.Open("name.txt")
-	if err != nil {
-		log.Fatalln(err)
-	}
-	defer file.Close()
-	var requestBody bytes.Buffer
-}
